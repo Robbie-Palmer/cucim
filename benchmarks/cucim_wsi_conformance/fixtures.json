@@ -1,0 +1,99 @@
+{
+  "schema_version": "cucim-wsi-conformance-fixtures-v1",
+  "sources": [
+    {
+      "id": "wsilabs-wsi-fixtures-svs-v8",
+      "url": "https://github.com/WSILabs/wsi-fixtures/releases/download/v8/svs.tar",
+      "revision": "v8",
+      "source_commit": "3c52c9594a87d51a177836bbcce1350132392bbb",
+      "license_url": "https://github.com/WSILabs/wsi-fixtures/tree/3c52c9594a87d51a177836bbcce1350132392bbb/fixtures/svs",
+      "members": [
+        {
+          "path": "svs/CMU-1-Small-Region.svs",
+          "bytes": 1938955,
+          "sha256": "ed92d5a9f2e86df67640d6f92ce3e231419ce127131697fbbce42ad5e002c8a7",
+          "format": "aperio-svs",
+          "codec": "jpeg",
+          "license_spdx": "CC0-1.0",
+          "attribution": "OpenSlide test data"
+        },
+        {
+          "path": "svs/239551.svs",
+          "bytes": 26637925,
+          "sha256": "019946dbe04eefaee18a90bb3222ae5ac51f081736ff1e195d0a52169ccc9535",
+          "format": "aperio-svs",
+          "codec": "jpeg",
+          "license_spdx": "CC-BY-4.0",
+          "attribution": "WSILabs wsi-fixtures contributor"
+        },
+        {
+          "path": "svs/590_crop_jp2k_imagescope.svs",
+          "bytes": 1460813,
+          "sha256": "72cb781a8dae8ef6b3a446cedf9956f54690a3eb570a972fbb05e6dab48b8bfc",
+          "format": "aperio-svs",
+          "codec": "jpeg2000",
+          "license_spdx": "CC-BY-4.0",
+          "attribution": "WSILabs wsi-fixtures contributor"
+        },
+        {
+          "path": "svs/590_crop_jpeg70_imagescope.svs",
+          "bytes": 2715221,
+          "sha256": "cbf8019fa3ed25b6936f0e8dfb9e171eb90daea443e91a96e48d8fa5bad95cbd",
+          "format": "aperio-svs",
+          "codec": "jpeg",
+          "license_spdx": "CC-BY-4.0",
+          "attribution": "WSILabs wsi-fixtures contributor"
+        },
+        {
+          "path": "svs/590_crop_lzw_imagescope.tif",
+          "bytes": 9226382,
+          "sha256": "367a2c811d26d4063c5107b4aff673332c9dbf7ee78c315146452ef2ffbcabb0",
+          "format": "tiled-tiff",
+          "codec": "lzw",
+          "license_spdx": "CC-BY-4.0",
+          "attribution": "WSILabs wsi-fixtures contributor"
+        },
+        {
+          "path": "svs/590_crop_none_imagescope.tif",
+          "bytes": 23752356,
+          "sha256": "ad4205ea74e3664c4b4e319403650655d0851fb793ec511572869b30545fdd7c",
+          "format": "tiled-tiff",
+          "codec": "none",
+          "license_spdx": "CC-BY-4.0",
+          "attribution": "WSILabs wsi-fixtures contributor"
+        }
+      ]
+    },
+    {
+      "id": "openslide-leica-1",
+      "url": "https://openslide.cs.cmu.edu/download/openslide-testdata/Leica/Leica-1.scn",
+      "revision": "published-testdata",
+      "license_url": "https://openslide.cs.cmu.edu/download/openslide-testdata/Leica/",
+      "members": [
+        {
+          "path": "leica/Leica-1.scn",
+          "bytes": 291812870,
+          "sha256": "63a3c00fef5215497a9725cf19092a93f7f5ff855ce8561af74b087631831a97",
+          "format": "leica-scn",
+          "codec": "jpeg",
+          "license_spdx": "LicenseRef-OpenSlide-Testdata-Distributable",
+          "attribution": "Yves Sucaet"
+        }
+      ]
+    }
+  ],
+  "generated": [
+    {
+      "path": "generated/anisotropic-mpp.tiff",
+      "bytes": 295292,
+      "sha256": "c682a1f76d91051563153a20354d3578d46427d7eb6242eea98a1b1163a56fa7",
+      "format": "generic-tiled-tiff",
+      "codec": "none",
+      "license_spdx": "Apache-2.0",
+      "attribution": "cuCIM contributors",
+      "generator": "generate_anisotropic_tiff.py",
+      "mpp_x": 0.25,
+      "mpp_y": 0.5
+    }
+  ]
+}
